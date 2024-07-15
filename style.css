@@ -206,6 +206,9 @@ main{
 .hide{
     display: none;
 }
+::placeholder{
+    padding: 15px;
+}
 @media screen and (max-width:576px) {
     .skill-container, .section-div{
 
@@ -217,7 +220,7 @@ main{
     }
     .footer{
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
     }
     .padding{
         padding-right: 0;
@@ -244,5 +247,41 @@ main{
     .about{
         padding: 10px;
     }
+    .my-resume, .t{
+        margin: 0 10px 0 10px;
+    }
+    .developer-png{
+        background-image: none;
+    }
+    .banner-profail{
+        width: 100%;
+    }
+    .container{
+        margin: 20px;
+        flex-direction: column;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-btn{
+        padding: 15px;
+    }
+    .marginn{
+        margin: 5px;
+    }
+    .butt{
+        display: flex;
+        justify-content: center;
+    }
+    ::placeholder{
+        text-align: center;
+    }
+    
 }
     
