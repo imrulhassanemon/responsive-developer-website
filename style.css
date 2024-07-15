@@ -1,0 +1,248 @@
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* color  */
+.color{
+    color: #FD6E0A;
+}
+.dark-3{
+    color: #757575;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-1{
+    color: #181818;
+}
+.second-bg{
+    background-color: #FFF8F3;
+}
+.fontsize1{
+    font-size: 16px;
+    font-weight: 400;
+}
+.fontsize20{
+    font-size: 20px;
+    font-weight: 600;
+}
+.font-size25{
+    font-size: 25px;
+    font-weight: 700;
+}
+.font-size30{
+    font-size: 30px;
+    font-weight: 700;
+}
+.font-size35{
+    font-size: 35px;
+    font-weight: bold;
+}
+/* Nav bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.name{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+/* button section  */
+.button{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 36px 18px 36px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.butto{
+    display: flex;
+    gap: 30px ;
+}
+.buttonn{
+    background-color: rgb(255, 248, 243);
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 24px 18px 24px;
+    border-radius: 5px;
+    border: 1px solid rgba(253, 110, 10, 1);
+    width: 160px;
+}
+/* button section end  */
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+}
+.banner-profail{
+    width: 584px;
+}
+.developer-png{
+    background-image: url("developer.png"), url("header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* main width */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* This is main part  */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.about{
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px 150px;
+    border-radius: 10px;
+}
+.para{
+    margin-bottom: 0px;
+}
+.skill-section{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    
+}
+.text-aling{
+    text-align: center;
+}
+.skill-container{
+    margin: 130px 0 130px 0;
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    /* width: 267px; */
+    padding: 30px ;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.images{
+    max-width: 40px;
+}
+/* about me pat  */
+.section-div{
+    display: flex;
+    justify-content: space-between;
+}
+/* The resume part */
+
+.btn-marg{
+    margin: 50px 0 110px 0;
+}
+/* This is the footer section  */
+
+.footer{
+    display:flex;
+    background-color: #FFF8F3;
+    justify-content: space-between;
+    height: 780px;
+    padding: 130px 237px 130px;
+}
+.f-input{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.text-f{
+    height: 64px;
+    width: 461px;
+}
+.tex{
+    height: 180px;
+}
+.btn{
+    margin-top: 24px;
+}
+.padding{
+    padding-right: 120px;
+}
+.photo{
+    margin-top: 24px;
+}
+
+/* responsive media query  */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skill-container, .section-div{
+
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .skill-section{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .padding{
+        padding-right: 0;
+    }
+
+    .text-f{
+        width: calc(100% - 20px)
+    }
+    .tex{
+        width: calc(100% - 20px);
+    }
+    .btn{
+        text-align: center;
+    }
+    .for-center{
+        text-align: center;
+    }
+    .photo{
+        text-align: center;
+    }
+    #p-{
+        padding-right: 25px;
+    }
+    .about{
+        padding: 10px;
+    }
+}
+    
